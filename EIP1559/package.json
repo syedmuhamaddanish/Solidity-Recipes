@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "@influxdata/influxdb-client": "^1.33.2",
+    "@nomicfoundation/hardhat-toolbox": "^2.0.2",
+    "@nomiclabs/hardhat-ethers": "^2.2.2",
+    "dotenv": "^16.0.3",
+    "ethers": "^5.7.1",
+    "hardhat": "^2.13.0"
+  }
+}
