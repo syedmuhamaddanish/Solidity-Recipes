@@ -1,3 +1,5 @@
+exports.handler = async (event) => {
+
 const {ethers} = require('ethers');
 
 require('dotenv').config();
@@ -28,3 +30,5 @@ const signMessage = async() => {
 }
 
 signMessage();
+
+}
