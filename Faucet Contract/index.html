@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Faucet</title>
+    
+    <script src="https://cdn.ethers.io/lib/ethers-5.7.1.umd.min.js" type="application/javascript"></script>
+    
+    <script src="main.js"></script>
+    <style>
+        body {
+          font-family: Arial, Helvetica, sans-serif;
+          margin: 0;
+          padding: 0;
+        }
+        h1 {
+            text-align: center;
+        margin-top: 50px;
+        }
+
+        p {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+       
+
+        button {
+			background-color: #4CAF50;
+			color: white;
+			padding: 12px 24px;
+			border: none;
+			border-radius: 4px;
+			cursor: pointer;
+			font-size: 16px;
+			font-weight: bold;
+			display: block;
+			margin: 50px auto 0;
+		}
+
+        button:hover {
+			background-color: #3e8e41;
+		}
+
+        label {
+            font-weight: bold;
+            display: block;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+        input[type="text"] {
+            display: block;
+            margin: 0 auto;
+            padding: 10px;
+            border: 2px solid #ccc;
+            border-radius: 4px;
+            font-size: 16px;
+            box-shadow: none;
+            outline: none;
+        }
+
+        input[type="text"]:focus {
+            border-color: #7c4dff;
+        }
+    </style>
+
+  </head>
+  <body>
+    <h1>Faucet</h1>
+    <label for="input-field">Your address:</label>
+    <input type="text" id="address" name="input-field">
+    <p id="status"></p>
+    <button onclick="drip()" >Request Tokens</button>
+  </body>
+</html>
