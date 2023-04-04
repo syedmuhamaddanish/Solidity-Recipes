@@ -1,0 +1,67 @@
+/* Style for the navigation bar */
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+  }
+  
+  /* Style for navigation links */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Style for the header */
+  header {
+    background-color: #f2f2f2;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /* Style for the heading */
+  header h1 {
+    font-size: 48px;
+    margin: 0;
+  }
+  
+  /* Style for the heading span */
+  header h1 span {
+    font-size: 24px;
+  }
+  
+  /* Style for the form */
+  form {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  /* Style for the form label */
+  form label {
+    font-size: 20px;
+  }
+  
+  /* Style for the form input */
+  form input[type=text], form input[type=file], form input[type=submit] {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+  }
+  
+  /* Style for the form submit button */
+  form input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Hover style for the form submit button */
+  form input[type=submit]:hover {
+    background-color: #3e8e41;
+  }
+  

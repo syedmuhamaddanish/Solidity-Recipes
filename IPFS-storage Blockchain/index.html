@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>web3.storage</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="topnav">
+      <a href="/index.html">Store Data</a>
+    </div>
+    <header>
+      <h1>⁂
+        <span>Store IPFS hash on blockchain</span>
+      </h1>
+    </header>
+    <form method="POST" action="/uploadData" enctype="multipart/form-data">
+      <label for="filename">Enter Unique Filename: </label>
+      <input type="text" id="filename" name="filename" /><br> 
+
+      <input type="file" name="file1">
+      
+      <input type="submit" />
+    </form>
+    
+
+  </body>
+</html>
